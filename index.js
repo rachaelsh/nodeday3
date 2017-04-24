@@ -31,6 +31,6 @@ app.delete("/animals/:id", animalCtrl.delete);
 
 
 app.listen(7000, function(){
-  console.log("oh hiiii, 7000");
+  console.log("listening on 7000");
 
 });
